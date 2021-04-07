@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:background="#A5D8DD">
+
+    <TextView
+        android:id="@+id/profile_tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:textSize="18sp"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:id="@+id/profile_tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/profile_tv_name"
+        android:layout_marginTop="36dp" />
+
+    <TextView
+        android:id="@+id/profile_tv_city"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/profile_tv_email"
+        android:layout_marginTop="36dp" />
+
+    <TextView
+        android:id="@+id/profile_tv_birthdate"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/profile_tv_city"
+        android:layout_marginTop="36dp" />
+
+    <TextView
+        android:id="@+id/profile_tv_gender"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/profile_tv_birthdate"
+        android:layout_marginTop="36dp" />
+
+</RelativeLayout>

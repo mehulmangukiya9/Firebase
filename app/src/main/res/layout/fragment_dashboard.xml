@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardFragment"
+    android:background="#6AB187"
+    >
+
+    <TextView
+        android:id="@+id/tv_dashboard_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:textSize="45sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_signOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_dashboard_welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="Logout" />
+
+</RelativeLayout>
